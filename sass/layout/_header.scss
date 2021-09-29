@@ -116,9 +116,9 @@
   &:focus {
     color: var(--accent-color);
   }
-}
-
-.mobile-menu__container {
+  @media screen and (max-width: 399px) {
+    font-size: 30px;
+  }
 }
 
 .mobile-menu__contacts-item {
@@ -131,6 +131,9 @@
 
   font-size: 34px;
   line-height: 1.18;
+  @media screen and (max-width: 996px) {
+    font-size: 24px;
+  }
 }
 
 .mobile-menu__contacts-item:last-child {
@@ -138,6 +141,9 @@
 
   font-size: 24px;
   line-height: 1.17;
+  @media screen and (max-width: 399px) {
+    font-size: 14px;
+  }
 }
 
 .mobile-menu__contacts-link {
@@ -175,6 +181,9 @@
       background-color: rgba(33, 33, 33, 0.2);
       margin-left: 10px;
     }
+  }
+  @media screen and (max-width: 399px) {
+    font-size: 13px;
   }
 }
 
